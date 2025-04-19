@@ -18,3 +18,14 @@ Frontend: Streamlit
 Backend / ML: Python, scikit-learn, pandas, numpy
 
 Model: Linear Regression
+
+How To Run:
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Train the model (creates model.pkl)
+python train_model.py
+
+# Run the app
+streamlit run app.py
